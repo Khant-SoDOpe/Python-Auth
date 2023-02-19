@@ -30,4 +30,4 @@ api.add_resource(add,"/add/<int:onenumber>/<int:twonumber>")
 api.add_resource(minus,"/minus/<int:onenumber>/<int:twonumber>")
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8082)
+    app.run()
