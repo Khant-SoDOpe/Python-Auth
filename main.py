@@ -80,4 +80,4 @@ api.add_resource(ProtectedResource, '/protected')
 api.add_resource(signupResource,'/signup/<string:username>/<string:password>')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
